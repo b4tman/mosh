@@ -26,7 +26,7 @@ override_dh_auto_configure:
 		--enable-static-libraries
 
 override_dh_builddeb:
-        dh_builddeb -- -Zgzip
+	dh_builddeb -- -Zgzip
 
 override_dh_perl:
 	# mosh only uses Perl modules in perl-base.
